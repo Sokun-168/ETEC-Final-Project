@@ -1,0 +1,194 @@
+[
+  {
+    "id": "espresso",
+    "name": "Espresso",
+    "image": "/images/coffee/espresso.png",
+    "description": "Strong and rich coffee shot made from premium roasted beans.",
+    "price": "$3.50",
+    "categories": ["coffee"]
+  },
+  {
+    "id": "latte",
+    "name": "Caramel Latte",
+    "image": "/images/coffee/latte.png",
+    "description": "Smooth espresso blended with steamed milk and caramel.",
+    "price": "$4.50",
+    "categories": ["coffee"]
+  },
+  {
+    "id": "cappuccino",
+    "name": "Cappuccino",
+    "image": "/images/coffee/cappuccino.png",
+    "description": "Classic Italian coffee topped with creamy milk foam.",
+    "price": "$4.75",
+    "categories": ["coffee"]
+  },
+  {
+    "id": "mocha",
+    "name": "Mocha",
+    "image": "/images/coffee/mocha.png",
+    "description": "Espresso mixed with chocolate and steamed milk.",
+    "price": "$5.00",
+    "categories": ["coffee"]
+  },
+  {
+    "id": "americano",
+    "name": "Americano",
+    "image": "/images/coffee/americano.png",
+    "description": "Espresso diluted with hot water for a smooth flavor.",
+    "price": "$3.75",
+    "categories": ["coffee"]
+  },
+  {
+    "id": "coldbrew",
+    "name": "Cold Brew",
+    "image": "/images/coffee/coldbrew.png",
+    "description": "Slow-steeped coffee served chilled and refreshing.",
+    "price": "$4.25",
+    "categories": ["coffee"]
+  },
+  {
+    "id": "green-tea",
+    "name": "Green Tea",
+    "image": "/images/tea/green-tea.png",
+    "description": "Fresh organic green tea with natural antioxidants.",
+    "price": "$3.50",
+    "categories": ["tea"]
+  },
+  {
+    "id": "signature-latte",
+    "name": "Sea Salt Caramel Latte",
+    "image": "/images/coffee/signature-latte.png",
+    "description": "Rich espresso with smooth micro-foam and a savory-sweet caramel drizzle.",
+    "price": "$5.50",
+    "categories": ["coffee"]
+  },
+  {
+    "id": "essiac-tea",
+    "name": "Essiac Tea",
+    "image": "/images/tea/tea.png",
+    "description": "A traditional herbal tea blend, caffeine-free.",
+    "price": "$1.50",
+    "categories": ["tea"]
+  },
+  {
+    "id": "signature-croissant",
+    "name": "Almond Praline Croissant",
+    "image": "/images/bakery/signature-croissant.png",
+    "description": "Flaky, buttery layers filled with sweet almond paste and topped with toasted flakes.",
+    "price": "$4.25",
+    "categories": ["bakery"]
+  },
+  {
+    "id": "croissant",
+    "name": "Butter Croissant",
+    "image": "/images/bakery/croissant.png",
+    "description": "Freshly baked every morning.",
+    "price": "$2.50",
+    "categories": ["bakery"]
+  },
+  {
+    "id": "burger",
+    "name": "Beef Burger",
+    "image": "/images/desserts/burger.png",
+    "description": "Piled high with all your favorite toppings.",
+    "price": "$2.50",
+    "categories": ["desserts"]
+  },
+  {
+    "id": "couplebread",
+    "name": "Breakfast Set for Couple",
+    "image": "/images/bakery/couplebread.png",
+    "description": "Best set for couple if you pair with latte",
+    "price": "$7.50",
+    "categories": ["bakery"]
+  },
+  {
+    "id": "strawberrydessert",
+    "name": "Strawberry bavarois fruit dessert",
+    "image": "/images/desserts/strawberrydessert.png",
+    "description": "The macaroon has a delicious almond taste and is a nice combination with the fresh fruit and the chocolate ganache.",
+    "price": "$5.50",
+    "categories": ["desserts"]
+  },
+  {
+    "id": "chocolateMousse",
+    "name": "Chocolate Mousse Cake",
+    "image": "/images/desserts/chocolate_mousse.png",
+    "description": "This cake doesn't just look like a showstopper; it tastes like a slice of pure bliss, making it perfect for any occasion.",
+    "price": "$4.50",
+    "categories": ["desserts"]
+  },
+  {
+    "id": "taroMilktea",
+    "name": "Taro Milk Tea",
+    "image": "/images/tea/taromilktea.png",
+    "description": "This taro bubble tea is a creamy, sweet treat that's beautifully purple and can be enjoyed either warm or cold.",
+    "price": "$3.50",
+    "categories": ["tea"]
+  },
+  {
+    "id": "strawberryMilktea",
+    "name": "Strawberry Banana Smoothie",
+    "image": "/images/drinks/strawberry_smoothie.png",
+    "description": "The ripe banana provides a natural sweetness and creamy texture, while the Greek yogurt adds a tangy flavor and a boost of protein.",
+    "price": "$2.75",
+    "categories": ["smoothie"]
+  },
+  {
+    "id": "mangoSmoothie",
+    "name": "Mango Smoothie",
+    "image": "/images/drinks/mango_smoothie.png",
+    "description": "It's cool and creamy, with a sweet, tangy tropical flavor and the cheeriest color around.",
+    "price": "$3.75",
+    "categories": ["smoothie"]
+  },
+  {
+    "id": "kiwiSmoothie",
+    "name": "Kiwi Smoothie",
+    "image": "/images/drinks/kiwi_smoothie.png",
+    "description": "Kiwi brings a bright, tangy punch, but it's nicely balanced by sweet banana and pineapple.",
+    "price": "$4.75",
+    "categories": ["smoothie"]
+  },
+  {
+    "id": "freshcoconut",
+    "name": "Fresh Coconut",
+    "image": "/images/drinks/freshcoconut.png",
+    "description": "Fresh green coconut is nature's delicious gift, packed with electrolytes, vitamins, and minerals.",
+    "price": "$2.50",
+    "categories": ["fresh"]
+  },
+  {
+    "id": "coconutcoffee",
+    "name": "Coconut Coffee",
+    "image": "/images/coffee/coconutcoffee.png",
+    "description": "Some folks are surprised to find just how incredibly tasty your cup can be when you combine coffee and coconut.",
+    "price": "$5.50",
+    "categories": ["coffee"]
+  },
+  {
+    "id": "matcha",
+    "name": "Matcha Latte",
+    "image": "/images/tea/matcha.png",
+    "description": "Iced matcha tea isn't just a trendy green drink; it's a delicious ritual I've grown to love.",
+    "price": "$3.50",
+    "categories": ["tea"]
+  },
+  {
+    "id": "chocolatefrappe",
+    "name": "Chocolate Frappe",
+    "image": "/images/coffee/chocolatefrappe.png",
+    "description": "A rich, creamy, iced beverage made by blending milk, chocolate, and ice, topped with whipped cream.",
+    "price": "$4.50",
+    "categories": ["desserts"]
+  },
+  {
+    "id": "orangejuice",
+    "name": "Orange Juice",
+    "image": "/images/drinks/orangejuice.png",
+    "description": "Fresh and ripe oranges provide the natural sweetness and tanginess that make the juice so refreshing.",
+    "price": "$2.50",
+    "categories": ["fresh"]
+  }
+]
