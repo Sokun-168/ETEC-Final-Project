@@ -8,33 +8,33 @@ import { menuCategories } from '../data/siteData'
 const ORDERS_KEY = 'artisan-roast-orders'
 
 const availableImages = [
-  '/images/coffee/latte.png',
-  '/images/coffee/espresso.png',
-  '/images/coffee/cappuccino.png',
-  '/images/coffee/mocha.png',
-  '/images/coffee/americano.png',
-  '/images/coffee/coldbrew.png',
-  '/images/coffee/signature-latte.png',
-  '/images/tea/green-tea.png',
-  '/images/tea/tea.png',
-  '/images/tea/matcha.png',
-  '/images/tea/taromilktea.png',
-  '/images/bakery/croissant.png',
-  '/images/bakery/signature-croissant.png',
-  '/images/desserts/burger.png',
-  '/images/desserts/strawberrydessert.png',
-  '/images/desserts/chocolate_mousse.png',
-  '/images/drinks/orangejuice.png',
-  '/images/drinks/mango_smoothie.png',
-  '/images/drinks/kiwi_smoothie.png',
-  '/images/drinks/strawberry_smoothie.png',
-  '/images/drinks/freshcoconut.png',
-  '/images/coffee/coconutcoffee.png',
-  '/images/coffee/chocolatefrappe.png',
-  '/images/bakery/couplebread.png',
+  `${import.meta.env.BASE_URL}images/coffee/latte.png`,
+  `${import.meta.env.BASE_URL}images/coffee/espresso.png`,
+  `${import.meta.env.BASE_URL}images/coffee/cappuccino.png`,
+  `${import.meta.env.BASE_URL}images/coffee/mocha.png`,
+  `${import.meta.env.BASE_URL}images/coffee/americano.png`,
+  `${import.meta.env.BASE_URL}images/coffee/coldbrew.png`,
+  `${import.meta.env.BASE_URL}images/coffee/signature-latte.png`,
+  `${import.meta.env.BASE_URL}images/tea/green-tea.png`,
+  `${import.meta.env.BASE_URL}images/tea/tea.png`,
+  `${import.meta.env.BASE_URL}images/tea/matcha.png`,
+  `${import.meta.env.BASE_URL}images/tea/taromilktea.png`,
+  `${import.meta.env.BASE_URL}images/bakery/croissant.png`,
+  `${import.meta.env.BASE_URL}images/bakery/signature-croissant.png`,
+  `${import.meta.env.BASE_URL}images/desserts/burger.png`,
+  `${import.meta.env.BASE_URL}images/desserts/strawberrydessert.png`,
+  `${import.meta.env.BASE_URL}images/desserts/chocolate_mousse.png`,
+  `${import.meta.env.BASE_URL}images/drinks/orangejuice.png`,
+  `${import.meta.env.BASE_URL}images/drinks/mango_smoothie.png`,
+  `${import.meta.env.BASE_URL}images/drinks/kiwi_smoothie.png`,
+  `${import.meta.env.BASE_URL}images/drinks/strawberry_smoothie.png`,
+  `${import.meta.env.BASE_URL}images/drinks/freshcoconut.png`,
+  `${import.meta.env.BASE_URL}images/coffee/coconutcoffee.png`,
+  `${import.meta.env.BASE_URL}images/coffee/chocolatefrappe.png`,
+  `${import.meta.env.BASE_URL}images/bakery/couplebread.png`,
 ]
 
-const emptyForm = { name: '', price: '', description: '', category: 'coffee', image: '/images/coffee/latte.png' }
+const emptyForm = { name: '', price: '', description: '', category: 'coffee', image: `${import.meta.env.BASE_URL}images/coffee/latte.png` }
 
 export default function Admin() {
   const { user } = useAuth()
@@ -275,7 +275,7 @@ export default function Admin() {
                 list="image-options"
                 value={form.image}
                 onChange={(e) => setForm({ ...form, image: e.target.value })}
-                placeholder="/images/coffee/my-new-drink.png"
+                placeholder={`${import.meta.env.BASE_URL}images/coffee/my-new-drink.png`}
                 className="w-full rounded-lg border border-coffee-100 px-4 py-2.5 text-sm outline-none focus:border-coffee-400"
               />
               <datalist id="image-options">

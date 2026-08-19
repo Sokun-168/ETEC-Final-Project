@@ -30,7 +30,7 @@ export default function About() {
             </p>
           </div>
           <img
-            src="/images/site/coffee-make.png"
+            src={`${import.meta.env.BASE_URL}images/site/coffee-make.png`}
             alt="Our premium coffee roaster"
             className="h-full w-full rounded-2xl object-cover shadow-lg"
           />
@@ -43,12 +43,12 @@ export default function About() {
           </h2>
           <div className="grid gap-6 sm:grid-cols-2">
             <img
-              src="/images/site/certificate1.png"
+              src={`${import.meta.env.BASE_URL}images/site/certificate1.png`}
               alt="Certificate 1"
               className="rounded-xl object-cover shadow-md"
             />
             <img
-              src="/images/site/certificate2.png"
+              src={`${import.meta.env.BASE_URL}images/site/certificate2.png`}
               alt="Certificate 2"
               className="rounded-xl object-cover shadow-md"
             />
@@ -73,7 +73,7 @@ export default function About() {
           <div className="grid items-center gap-8 md:grid-cols-3">
             <div className="text-center">
               <img
-                src="/images/site/CEO.JPG"
+                src={`${import.meta.env.BASE_URL}images/site/CEO.JPG`}
                 alt="Heang Sokun"
                 className="mx-auto h-44 w-44 rounded-full object-cover shadow-sm"
               />

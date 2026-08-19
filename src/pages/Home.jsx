@@ -92,7 +92,7 @@ export default function Home() {
       {/* About */}
       <section className="mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 md:grid-cols-2">
         <img
-          src="/images/site/about.png"
+          src={`${import.meta.env.BASE_URL}images/site/about.png`}
           alt="Coffee shop interior"
           className="rounded-2xl object-cover shadow-lg"
         />
@@ -157,7 +157,7 @@ export default function Home() {
           </ul>
         </div>
         <img
-          src="/images/site/environment.png"
+          src={`${import.meta.env.BASE_URL}images/site/environment.png`}
           alt="Coffee shop environment"
           className="rounded-2xl object-cover shadow-lg"
         />

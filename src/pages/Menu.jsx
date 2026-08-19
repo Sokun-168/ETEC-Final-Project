@@ -119,7 +119,7 @@ export default function Menu() {
             </p>
           </div>
           <img
-            src="/images/coffee/popular-latte.png"
+            src={`${import.meta.env.BASE_URL}images/coffee/popular-latte.png`}
             alt="Caramel Latte"
             className="rounded-xl object-cover shadow-lg"
           />
